@@ -19,7 +19,7 @@ class Scoreboard(Turtle):
         self.clear()
         self.goto(-240, 270)
         self.write(f'Score: {self.score}', align=ALIGN, font=FONT)
-        self.goto(200, 270)
+        self.goto(180, 270)
         self.write(f'High Score: {self.high_score}', align=ALIGN, font=FONT)
 
     def increase_score(self):
